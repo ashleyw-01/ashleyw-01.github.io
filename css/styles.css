@@ -1,0 +1,79 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav {
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 10px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+.container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 3%;
+    align-items: center;
+    padding: 20px;
+}
+.main-photo{
+    flex: 30%;
+    max-width: 100%;
+    display: flex;
+}
+.pfp {
+    flex: 30%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.blurb{
+    flex: 70%;
+    padding: 5%;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .main-photo, .blurb {
+        flex: 100%; /* Take up full width */
+        max-width: 100%; /* Remove max-width to fill the screen */
+    }
+}
