@@ -1,10 +1,12 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 0px 0px;
+    width:  100%;
 }
 nav {
     overflow: hidden;
     background-color: #f1f1f1;
+    /* margin: 0 0; */
+    padding: 0px 10px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -46,6 +48,8 @@ ul.posts li {
     list-style: none;
 }
 .container {
+    margin: 0px auto;
+    width: 80%;
     display: grid;
     grid-template-columns: 30% 70%;
     grid-gap: 3%;
