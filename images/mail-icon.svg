@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="47.038017mm"
-   height="32.481987mm"
-   viewBox="0 0 47.038018 32.481987"
+   width="32.589485mm"
+   height="33.479362mm"
+   viewBox="0 0 32.589486 33.479362"
    version="1.1"
    id="svg5"
    sodipodi:docname="mail-icon.svg"
@@ -24,12 +24,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="4.7572176"
-     inkscape:cx="111.40966"
-     inkscape:cy="51.290486"
+     inkscape:zoom="4.7230087"
+     inkscape:cx="25.513398"
+     inkscape:cy="59.707702"
      inkscape:window-width="1920"
      inkscape:window-height="1094"
-     inkscape:window-x="-11"
+     inkscape:window-x="2869"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
@@ -67,24 +67,25 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0.90579057,0.98444748)">
+     transform="matrix(0.65959819,0,0,0.77521011,1.4272318,4.7147216)"
+     style="stroke-width:5.25351;stroke-dasharray:none">
     <rect
-       style="fill:none;stroke:#5a5a5a;stroke-width:3;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#5a5a5a;stroke-width:5.25351;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        id="rect286"
        width="44.038017"
        height="29.481989"
        x="0.59420943"
        y="0.51555252" />
     <path
-       style="fill:none;stroke:#5a5a5a;stroke-width:3;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#5a5a5a;stroke-width:5.25351;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="M 0.6334816,1.0547673 22.554637,21.384365 44.638977,0.81928932"
        id="path2892" />
     <path
-       style="fill:none;stroke:#5a5a5a;stroke-width:3;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#5a5a5a;stroke-width:5.25351;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="M 0.55617244,25.02776 17.686284,17.519432"
        id="path3620" />
     <path
-       style="fill:none;stroke:#5a5a5a;stroke-width:3;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#5a5a5a;stroke-width:5.25351;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="M 44.326945,25.111186 27.196833,17.602858"
        id="path3620-2" />
   </g>

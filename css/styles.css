@@ -31,14 +31,11 @@ footer {
     height: 1.5em;
     padding: 0 0.1%;
 }
-b {
-    color: #5A5A5A;
-}
-a {
+.tab {
     text-decoration: none;
     color: #000000;
 }
-a:hover {
+.tab:hover {
     text-decoration: underline;
 }
 h1 {
