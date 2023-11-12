@@ -20,7 +20,19 @@ nav ul li {
 }
 footer ul li {
     display: inline;
-    margin: 2%;
+    margin: 0.5%;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+    text-align: center;
+}
+.icon {
+    height: 1.5em;
+    padding: 0 0.1%;
+}
+b {
+    color: #5A5A5A;
 }
 a {
     text-decoration: none;
@@ -37,13 +49,6 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-b {
-    color: #5A5A5A;
 }
 ul.posts { 
     margin: 1% auto 2%; 
