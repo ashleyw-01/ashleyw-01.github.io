@@ -86,8 +86,11 @@ ul.posts li {
     .container {
         display: flex;
         flex-direction: column;
+        margin: 2% 0%;
     }
-
+    .h1{
+        display: inline;
+    }
     .main-photo, .pfp, .blurb {
         flex: 100%;
         max-width: 100%;
