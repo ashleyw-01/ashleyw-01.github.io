@@ -11,7 +11,7 @@ nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 1%;
     list-style: none;
-    font-weight: normal;
+    font-weight: bold;
 }
 nav ul li {
     display: inline;
@@ -89,7 +89,7 @@ ul.posts li {
         margin: 2% 0%;
     }
     .h1{
-        display: inline;
+        font-size: 1.5rem;
     }
     .main-photo, .pfp, .blurb {
         flex: 100%;
