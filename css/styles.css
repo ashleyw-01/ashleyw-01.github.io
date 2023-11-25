@@ -54,6 +54,7 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
 .container {
     margin: 0 auto;
     width: 80%;
@@ -63,28 +64,32 @@ ul.posts li {
     align-items: center;
     padding: 1%;
 }
-.main-photo{
-    flex: 30%;
+
+.main-photo {
+    flex: 1;
     max-width: 100%;
     display: flex;
 }
+
 .pfp {
-    flex: 30%;
+    flex: 1;
     max-width: 100%;
-    height: auto;
     border-radius: 50%;
 }
-.blurb{
-    flex: 70%;
+
+.blurb {
+    flex: 1;
     padding: 5%;
 }
+
 @media (max-width: 768px) {
     .container {
-        flex-direction: column; 
+        display: flex;
+        flex-direction: column;
     }
 
-    .main-photo, .blurb {
+    .main-photo, .pfp, .blurb {
         flex: 100%;
-        max-width: 100%; 
+        max-width: 100%;
     }
 }
