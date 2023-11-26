@@ -86,7 +86,7 @@ ul.posts li {
     .container {
         display: flex;
         flex-direction: column;
-        margin: 2% auto;
+        margin: 5% auto;
         justify-content: center;
     }
     h1{
