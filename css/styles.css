@@ -46,15 +46,6 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-ul.posts { 
-    margin: 1% auto 2%; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-
 .container {
     margin: 0 auto;
     width: 80%;
@@ -64,24 +55,20 @@ ul.posts li {
     align-items: center;
     padding: 1%;
 }
-
 .main-photo {
     flex: 1;
     max-width: 100%;
     display: flex;
 }
-
 .pfp {
     flex: 1;
     max-width: 100%;
     border-radius: 50%;
 }
-
 .blurb {
     flex: 1;
     padding: 5%;
 }
-
 @media (max-width: 768px) {
     .container {
         display: flex;
