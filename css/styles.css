@@ -41,6 +41,10 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+h2 {
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
 p {
     font-size: 1.5em;
     line-height: 1.4em;
@@ -68,6 +72,13 @@ p {
 .blurb {
     flex: 1;
     padding: 5%;
+}
+.about {
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+    /* text-align: center; */
+    padding: 1%;
 }
 @media (max-width: 768px) {
     .container {
