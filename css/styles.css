@@ -88,7 +88,7 @@ p {
         margin: 5% auto;
         justify-content: center;
     }
-    h1{
+    h1 {
         font-size: 2.5em;
         text-align: center;
     }
@@ -100,5 +100,8 @@ p {
     }
     p {
         text-align: center;
+    }
+    .about p, h1 {
+        text-align: left;
     }
 }
