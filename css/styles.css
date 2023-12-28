@@ -64,6 +64,7 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container {
     margin: 0 auto;
@@ -90,9 +91,57 @@ p {
 }
 .about {
     margin: 0 auto;
-    width: 70%;
+    width: 75%;
     align-items: center;
     padding: 0.5%;
+}
+.research, .education {
+    margin: 0% auto 5% auto;
+    width: 75%;
+    align-items: center;
+    /* padding: 0.5%; */
+}
+.edubox {
+    margin: 2% auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 8%;
+    align-items: center;
+    padding: 1%;
+}
+.edubox-photo{
+    flex: 1;
+    max-width: 90%;
+    display: flex;
+}
+.eduimg {
+    flex: 1;
+    max-width: 100%;
+    height:fit-content;
+    border-radius: 3%;
+}
+.edubox-text {
+    flex: 1;
+    padding: 0;
+    vertical-align: center;
+}
+.title {
+    margin: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+.description {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+}
+.projects {
+    width: 100%;
+    margin: 2.5% 0;
+    padding: 0 2.5%;
+    border-left: thick solid #fd7f20;
 }
 @media (max-width: 768px) {
     .container {
@@ -105,7 +154,7 @@ p {
         font-size: 2.5em;
         text-align: center;
     }
-    .main-photo, .pfp, .blurb {
+    .main-photo, .pfp, .blurb, .edutext {
         flex: 100%;
         max-width: 100%;
         align-items: center;
@@ -115,6 +164,12 @@ p {
         text-align: center;
     }
     .about p, .about h1 {
+        text-align: left;
+    }
+    .projects, .edubox-text {
+        font-size: 0.6em;
+    }
+    .title, .description{
         text-align: left;
     }
 }
