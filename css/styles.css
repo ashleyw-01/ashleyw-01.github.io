@@ -116,7 +116,6 @@ p {
 .eduimg {
     flex: 1;
     max-width: 100%;
-    height:fit-content;
     border-radius: 3%;
 }
 .edubox-text {
