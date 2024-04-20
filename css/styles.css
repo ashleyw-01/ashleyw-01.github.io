@@ -149,6 +149,7 @@ p {
 }
 
 .proj-info {
+    display: none;
     margin: 0 0;
     padding: 0 0;
     font-family: Arial, Helvetica, sans-serif;
