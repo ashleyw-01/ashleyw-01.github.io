@@ -16,33 +16,6 @@
          <li><a class = "tab" href="https://drive.google.com/file/d/1DaFD9caHNI7Vn0Hw8PPZp5dkUBA6rCmN/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume/CV</a></li>
       </ul>
    </nav>
-   <div class="research">
-      <h2>Research projects</h2>
-      <div class="projects">
-         <p class="title">Computational genomics and epigenomics to understand metastasis.</p>
-         <p class="description">PhD (in progress), The Institute of Cancer Research (2023–2027)
-         <br>
-         <i>Supervisor: Professor Trevor Graham</i></p>
-      </div>
-      <div class="projects">
-         <p class="title">Developing a machine learning method for nanobody humanisation.</p>
-         <p class="description">MBiochem, University of Oxford (2022–2023)
-         <br>
-         <i>Supervisor: Professor Charlotte Deane</i></p>
-      </div>
-      <div class="projects">
-         <p class="title">The role of circRERE in synaptogenesis.</p>
-         <p class="description">Amgen Scholar, ETH Zurich (2022)
-         <br>
-         <i>Supervisor: Professor Gerhard Schratt</i></p>
-      </div>
-      <div class="projects">
-         <p class="title">The structure and composition of 5'-UTRs in neurodegenerative disorder genes.</p>
-         <p class="description">Genetics Society Summer Studentship, University of Oxford (2021)
-         <br>
-         <i>Supervisor: Professor Nicky Whiffin</i></p>
-      </div>
-   </div>
    <div class="education">
       <!-- <h2>Publications</h2> -->
       <h2>Education</h2>
@@ -68,6 +41,65 @@
             <p class="description">Master's project: Developing a machine learning method for nanobody humanisation.</p>
           </div>
       </div>
+      </div>
+   </div>
+   <div class="research">
+      <h2>Research projects</h2>
+      <div class="projects">
+         <div class="proj-head">
+            <p class="title">Computational genomics and epigenomics to understand metastasis.</p>
+            <p class="description">PhD (in progress), The Institute of Cancer Research (2023–2027)
+            <br>
+            <i>Supervisor: Professor Trevor Graham</i></p>
+         </div>
+         <p class="proj-info">
+            Previous work has shown that mathematical modelling and inference can be used as a tool to parse cancer sequencing data to trace the lineage of tumours, determine their modes of evolution, and predict how they will behave in the future. This project will build on this work to understand the genetic and epigenetic drivers of metastasis evolution.
+            <br><br>
+            Currently, I am creating a mathematical model describing the processes of cell migration, growth, and clonal selection during metastasis evolution. This will establish a computational framework to simulate sequencing data from the mathematical model that mimics real-world data. Then, I will analyse the model to identify signatures of evolutionary selection in sequencing data. This will allow me to apply the framework to identify drivers of colorectal cancer metastasis from sequencing data, and then further datasets as available.
+         </p>
+      </div>
+      <div class="projects">
+         <div class="proj-head">
+            <p class="title">Developing a machine learning method for nanobody humanisation.</p>
+            <p class="description">MBiochem, University of Oxford (2022–2023)
+            <br>
+            <i>Supervisor: Professor Charlotte Deane</i></p>
+         </div>
+         <p class="proj-info">
+            My Master's project focused on developing a machine learning method for nanobody humanisation. Nanobodies are a promising class of therapeutics with improved stability over antibodies and ability to bind antibody-inaccessible epitopes. However, nanobodies are derived from camelid species, i.e. non-human, which can lead to unwanted immunogenicity, reducing efficacy and/or causing adverse effects. ‘Humanising’ them decreases this risk. 
+            <br><br>
+            I investigated the conserved positions in all camel VHH domain (i.e. nanobody) sequences in the Observed Antibody Space database (OAS) and how they differ compared to human VH sequences in OAS using a mutual information calculation, finding that in line with literature, four highly conserved hydrophobic residues in antibodies tend to be substituted with more hydrophilic ones in nanobodies. 
+            <br><br>
+            In addition to investigating nanobody features, I researched the literature (primarily patents and clinical trials) for therapeutic nanobody immunogenicity data and corresponding sequences. I ran these sequences on the group’s existing tool for antibody humanisation (Hu-mAb) as a benchmark.
+            <br><br>
+            This led me to investigate the importance of dataset compostion in the classification task. I found that the model cannot accurately classify sequences from species it was not trained on. In the process, I parallelised the existing model training code to make it more efficient, achieving a 2x speedup in training time. Additional modifications I made to the code meant that it used 1/3 of the original memory.
+         </p>
+      </div>
+      <div class="projects">
+         <div class="proj-head">
+            <p class="title">The role of circRERE in synaptogenesis.</p>
+            <p class="description">Amgen Scholar, ETH Zurich (2022)
+            <br>
+            <i>Supervisor: Professor Gerhard Schratt</i></p>
+         </div>
+         <p class="proj-info">
+            I was one of seventeen students selected to be a fully-funded Amgen Scholar at ETH Zurich. My project focused on validating whether GRIA1 (glutamate receptor gene) is regulated by the miRNA miR-128-3p to build a circRNA-miRNA axis for synaptogenesis regulation to gain insight on the pathoetiology of neurodevelopmental diseases. Throughout the project, I used molecular biology techniques to clone and mutate the GRIA1 3'UTR into a dual luciferase reporter vector, and I performed dual luciferase reporter assays to validate the interaction between miR-128-3p and GRIA1. I also improved my experimental problem solving skills, since I was tasked with troubleshooting why the luminometer was not functioning as expected. 
+            <br><br>
+            I gained valuable lab skills like PCR (including primer design), mutagenesis, molecular cloning, cell culture, DNA & RNA purification, and dual luciferase reporter assay. At the end of the project, I presented my results in a poster at the Amgen Scholars Programme Europe Symposium in Cambridge.
+      </div>
+      <div class="projects">
+         <div class="proj-head">
+            <p class="title">The structure and composition of 5'-UTRs in neurodegenerative disorder genes.</p>
+            <p class="description">Genetics Society Summer Studentship, University of Oxford (2021)
+            <br>
+            <i>Supervisor: Professor Nicky Whiffin</i>
+            </p>
+         </div>
+         <p class="proj-info">
+            Worked in the Computational Rare Disease Genomics Lab on a Genetics Society-funded 8-week bioinformatics project looking at the structure and composition of 5'UTRs in neurodegenerative disorder genes. <br><br>
+            I compared the structure and composition of the 5' untranslated regions (5’UTRs) in neurodegenerative disorder (ND) genes to those of all other genes. 5’UTRs have emerging roles in post-transcriptional regulation, as they are able to form interactions with themselves, other RNA strands, and proteins, meaning that they have the potential to impact protein expression through RNA stability or regulation of translation. Owing to the lack of an existing database of ND genes, I curated a dataset by combining PanelApp adult-onset ND genes with those indicated as pathogenic or likely pathogenic at least six times on ClinVar. This is because PanelApp had an incomplete disease list, whereas ClinVar entries are not validated to the same rigour as PanelApp. I then used MANE transcript sequences to compile summary statistics for 5’UTR features that may impact protein expression. <br><br>
+            Through this experience, I became proficient in programming in R to analyse large genomic databases. At the Genetics Society Summer Studentship Workshop, I presented my findings to other studentship holders and senior members of the society and was awarded first place for the best presentation among 40 studentship holders.
+         </p>
       </div>
    </div>
    <footer>

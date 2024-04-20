@@ -139,8 +139,22 @@ p {
     width: 100%;
     margin: 2.5% 0;
     padding: 0 2.5%;
+}
+
+.proj-head {
+    width: 100%;
+    margin: 2.5% 0;
+    padding: 0 2.5%;
     border-left: thick solid #fd7f20;
 }
+
+.proj-info {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+}
+
 @media (max-width: 768px) {
     .container {
         display: flex;
