@@ -148,6 +148,10 @@ p {
     border-left: thick solid #fd7f20;
 }
 
+.proj-head:hover {
+    border-left: thick solid #fdda0d; 
+}
+
 .proj-info {
     display: none;
     margin: 0 0;
